@@ -8,7 +8,7 @@
 
     <Datasource name="shp">
       <Parameter name="type">shape</Parameter>
-      <Parameter name="base">../../data/shp/</Parameter>
+      <Parameter name="base">../shp/</Parameter>
     </Datasource>
 
   <Layer name="lay" srs="+proj=longlat +ellps=airy +datum=OSGB36 +no_defs">

@@ -10,7 +10,7 @@
     <StyleName>test</StyleName>
     <Datasource>
       <Parameter name="type">shape</Parameter>
-      <Parameter name="file">../../data/shp/poly.shp</Parameter>
+      <Parameter name="file">../shp/poly.shp</Parameter>
     </Datasource>
   </Layer>
   

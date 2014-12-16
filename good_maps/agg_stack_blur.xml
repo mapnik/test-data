@@ -17,7 +17,7 @@
         <StyleName>style</StyleName>
         <StyleName>style2</StyleName>
         <Datasource>
-            <Parameter name="file">../../data/shp/world_merc</Parameter>
+            <Parameter name="file">../shp/world_merc</Parameter>
             <Parameter name="type">shape</Parameter>
         </Datasource>
     </Layer>
