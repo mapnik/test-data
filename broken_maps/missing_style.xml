@@ -1,0 +1,12 @@
+<Map>
+  <Layer name="one">
+    <StyleName>text</StyleName>
+    <Datasource>
+       <Parameter name="type">csv</Parameter>
+       <Parameter name="inline">
+            wkt
+            "LINESTRING(0 0, 1 1)"
+       </Parameter>
+    </Datasource>
+  </Layer>
+</Map>
