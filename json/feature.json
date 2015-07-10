@@ -1,0 +1,15 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+	{
+	    "type": "Feature",
+	    "properties": {
+		"value": "} <- unbalanced inside quoted string value"
+	    },
+	    "geometry": {
+		"type": "Point",
+		"coordinates": [ -122,48 ]
+	    }
+	}
+    ]
+}
