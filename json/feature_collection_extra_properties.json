@@ -1,0 +1,24 @@
+{
+    "name1": "value1",
+    "name2": "value2",
+    "features": [
+	{
+	    "name3": "value3",
+	    "type": "Feature",
+	    "name4": "value4",
+	    "properties": {
+		"x": 0,
+		"y": 0,
+		"label": "0,0"
+	    },
+	    "geometry": {
+		"type": "Point",
+		"coordinates": [
+		    123,
+		    456
+		]
+	    }
+	}
+    ],
+    "type": "FeatureCollection"
+}
