@@ -4,6 +4,6 @@
 
 <svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
 
-<rect width="20" height="15" style="fill:fail;stroke-width:1;stroke:fail" />
+<rect width="20" height="15" style="fill:fail;stroke-width:fail;stroke:fail" />
 
 </svg>
