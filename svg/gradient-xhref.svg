@@ -13,7 +13,4 @@
         <rect x="20" y="20" width="440" height="80" fill="url(#Grad1a)"/>
         <rect x="20" y="150" width="440" height="80" fill="url(#Grad1b)"/>
         </g>
-        <g font-family="SVGFreeSansASCII,sans-serif" font-size="32">
-        <text id="revision" x="10" y="340" stroke="none" fill="black">$Revision: 1.7 $</text>
-    </g>
 </svg>
