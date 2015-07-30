@@ -5,7 +5,7 @@
   <desc>Example 13_01 - fill a rectangle using a linear gradient paint server</desc>
   <g>
     <defs>
-      <linearGradient id="MyGradient">
+      <linearGradient>
 	<stop offset="0.1" stop-color="#F60" stop-opacity="0.5"/>
 	<stop offset="0.9" stop-color="#FF6"/>
       </linearGradient>

@@ -1,0 +1,6 @@
+<?xml version="1.0" standalone="no"?>
+<svg height="80" width="300">
+    <g fill="none" stroke="black" stroke-width="6">
+        <path stroke-linecap="square" d="M5 60 l215 0" />
+    </g>
+</svg>

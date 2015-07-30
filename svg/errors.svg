@@ -9,11 +9,12 @@
   <rect width="100" height="-100" />
   <rect x="100" y="100" width="100" height="100" rx="1000" ry="1000"/>
   <rect x="100" y="100" width="100" height="100" rx="-1000" ry="1000"/>
-  <rect x="100" y="100" width="100" height="100" rx="-1000" ry="-1000"/>
+  <rect x="100" y="100" width="100" height="100" rx="1000" ry="-1000"/>
   <rect width="100" height="100" />
   <path/>
   <path d=""/>
   <path d="FAIL"/>
+  <path d="FAIL" id="fail-path" xml:id="fail-path"/>
   <circle cx="200" cy="0" r="-50"/>
   <polygon/>
   <polygon points=""/>
