@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<svg version="1.1" baseProfile="basic" id="svg-root" width="100%" height="100%" viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="test-body-content" font-family="SVGFreeSansASCII,sans-serif" font-size="18">
+        <defs>
+            <radialGradient id="grad1b" gradientUnits="userSpaceOnUse" cx="10%" cy="10%" r="75%" fx="00.00%" fy="25%">
+                <stop offset="0" stop-opacity="0"/>
+                <stop offset=".5" stop-color="darkblue"/>
+                <stop offset="1" stop-opacity="0"/>
+            </radialGradient>
+        </defs>
+
+        <g id="group1" stroke="black" stroke-width="0.5">
+            <rect x="00" y="0" width="200" height="200" fill="url(#grad1b)"/>
+            <!-- inherits a radial gradient -->
+        </g>
+    </g>
+</svg>
