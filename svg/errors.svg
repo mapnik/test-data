@@ -14,7 +14,8 @@
   <path/>
   <path d=""/>
   <path d="FAIL"/>
-  <path d="FAIL" id="fail-path" xml:id="fail-path"/>
+  <path d="FAIL" id="fail-path"/>
+  <path d="FAIL" xml:id="fail-path"/>
   <circle cx="200" cy="0" r="-50"/>
   <polygon/>
   <polygon points=""/>
