@@ -4,6 +4,7 @@
         <Rule>
             <Filter>([x]=0)</Filter>
             <TextSymbolizer size="10" dy="-10" face-name="DejaVu Sans Book" halo-radius="1" allow-overlap="true">[label]</TextSymbolizer>
+            <TextSymbolizer size="10" dy="10" face-name="DejaVu Sans Book" halo-radius="1" allow-overlap="true">[foo]</TextSymbolizer>
             <PointSymbolizer/>
         </Rule>
         <Rule>
@@ -14,6 +15,7 @@
         <Rule>
             <ElseFilter/>
             <TextSymbolizer size="10" dy="-5" face-name="DejaVu Sans Book" halo-radius="1">[label]</TextSymbolizer>
+            <TextSymbolizer size="10" dy="t" face-name="DejaVu Sans Book" halo-radius="1">[foo]</TextSymbolizer>
             <PointSymbolizer/>
         </Rule>
         
