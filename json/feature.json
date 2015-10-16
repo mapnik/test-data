@@ -1,15 +1,14 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-	{
-	    "type": "Feature",
-	    "properties": {
-		"value": "} <- unbalanced inside quoted string value"
-	    },
-	    "geometry": {
-		"type": "Point",
-		"coordinates": [ -122,48 ]
-	    }
-	}
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      125.6,
+      10.1
     ]
+  },
+  "properties": {
+    "name": "Dinagat Islands"
+  },
+  "something": 234
 }
