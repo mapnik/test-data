@@ -3,7 +3,6 @@
     <Style name="labels">
         <Rule>
             <TextSymbolizer face-name="DejaVu Sans Book"></TextSymbolizer>
-            <TextSymbolizer face-name="DejaVu Sans Book">''</TextSymbolizer>
             <TextSymbolizer face-name="DejaVu Sans Book"><![CDATA[]]></TextSymbolizer>
         </Rule>
     </Style>
