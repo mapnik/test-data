@@ -1,0 +1,1 @@
+{"type":"Topology","objects":{"featurecollection-multipleprops":{"type":"GeometryCollection","geometries":[{"type":"Point","properties":{"one":1},"coordinates":[0,0]},{"type":"Point","properties":{"two":2},"coordinates":[9999,9999]}]}},"arcs":[],"transform":{"scale":[0.00010001000100010001,0.00010001000100010001],"translate":[0,0]}}

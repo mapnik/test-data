@@ -1,0 +1,1 @@
+{"type":"Topology","objects":{"geometrycollection":{"type":"GeometryCollection","geometries":[{"type":"Point","coordinates":[0,0]},{"type":"LineString","arcs":[0]}]}},"arcs":[[[5000,0],[4999,9999]]],"transform":{"scale":[0.00020002000200020003,0.00010001000100010001],"translate":[100,0]}}
