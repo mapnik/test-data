@@ -21,7 +21,9 @@
                 "spaces":"this has spaces",
                 "double":1.1,
                 "boolean":true,
-                "NOM_FR":"Québec"
+                "NOM_FR":"Québec",
+                "object": {"nested":"value with spaces"},
+                "array": ["value1","value 2",3]
             }
         }
     ]
