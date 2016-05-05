@@ -22,8 +22,8 @@
                 "double":1.1,
                 "boolean":true,
                 "NOM_FR":"Québec",
-                "object": {"nested":"value with spaces"},
-                "array": ["value1","value 2",3]
+                "object": {"name":"waka","spaces":"value with spaces","int": 1,"double":1.1,"boolean":false,"NOM_FR":"Québec"},
+                "array": ["string","value with spaces",3,1.1,null,true,"Québec"]
             }
         }
     ]
