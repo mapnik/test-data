@@ -1,0 +1,71 @@
+{
+  "type": "Topology",
+  "objects": {
+    "escaped": {
+      "type": "GeometryCollection",
+      "geometries": [
+        {
+          "type": "Point",
+          "properties":
+          {
+            "name":"Test",
+            "int":1,
+            "description":"Test: \u005C",
+            "spaces":"this has spaces",
+            "double":1.1,
+            "boolean":true,
+            "NOM_FR":"Québec",
+            "object": {
+              "name": "waka",
+              "spaces":"value with spaces",
+              "int": 1,
+              "double":1.1,
+              "boolean":false,
+              "NOM_FR":"Québec",
+              "array": [
+                "string",
+                "value with spaces",
+                3,
+                1.1,
+                null,
+                true,
+                "Québec"
+              ],
+              "another_object": {
+                "name": "nested object"
+              }
+            },
+            "array": [
+              "string",
+              "value with spaces",
+              3,
+              1.1,
+              null,
+              true,
+              "Québec",
+              {"name": "object within an array"},
+              ["array", "within", "an", "array"]
+            ]
+          },
+          "coordinates": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  "arcs": [
+
+  ],
+  "transform": {
+    "scale": [
+      1,
+      1
+    ],
+    "translate": [
+        -81.705583,
+      41.480573
+    ]
+  }
+}
