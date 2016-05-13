@@ -52,7 +52,9 @@
                     "Québec",
                     {"name": "object within an array"},
                     ["array", "within", "an", "array"]
-                ]
+                ],
+                "empty_array":[],
+                "empty_object":{}
             }
         }
     ]
