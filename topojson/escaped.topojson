@@ -45,12 +45,11 @@
               "Québec",
               {"name": "object within an array"},
               ["array", "within", "an", "array"]
-            ]
+            ],
+            "empty_array":[],
+            "empty_object":{}
           },
-          "coordinates": [
-            0,
-            0
-          ]
+          "coordinates": [ 81.705583,0]
         }
       ]
     }
@@ -64,7 +63,7 @@
       1
     ],
     "translate": [
-        -81.705583,
+      0,
       41.480573
     ]
   }
