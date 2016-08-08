@@ -3,8 +3,8 @@
     <Style name="ellipse">
         <Rule>
             <MarkersSymbolizer
-              width="240"
-              height="240"
+              width="230"
+              height="230"
               fill="steelblue"
               fill-opacity=".7"
               stroke="yellow"
@@ -46,6 +46,7 @@ x,y
     <Style name="frame">
         <Rule>
             <PointSymbolizer />
+            <DebugSymbolizer />
         </Rule>
     </Style>
 
