@@ -17,6 +17,12 @@ INSERT INTO test_invalid_multi_col_pk VALUES (DEFAULT, DEFAULT, GeomFromEWKT('SR
 CREATE TABLE test_no_geom_col(id serial PRIMARY KEY);
 INSERT INTO test_no_geom_col VALUES (DEFAULT);
 
+CREATE TABLE "test'single'quotes" (gid serial PRIMARY KEY, "col'geom" geometry);
+INSERT INTO "test'single'quotes" VALUES (1, GeomFromEWKT('SRID=4326;POINT(2 3)'));
+
+CREATE TABLE "test""double""quotes" (gid serial PRIMARY KEY, """so-called""geom" geometry);
+INSERT INTO "test""double""quotes" VALUES (1, GeomFromEWKT('SRID=4326;POINT(2 3)'));
+
 --simlulate z() function from postgis-vt-util
 CREATE OR REPLACE FUNCTION z(numeric)
   RETURNS integer AS
