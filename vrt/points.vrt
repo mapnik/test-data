@@ -3,6 +3,6 @@
         <SrcDataSource relativeToVRT="1">../csv/points.csv</SrcDataSource>
         <GeometryType>wkbPoint</GeometryType>
         <LayerSRS>WGS84</LayerSRS>
-        <GeometryField encoding="PointFromColumns" x="x" y="y"/>
+        <GeometryField encoding="PointFromColumns" x="long" y="lat"/>
     </OGRVRTLayer>
 </OGRVRTDataSource>
