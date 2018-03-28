@@ -1,0 +1,21 @@
+<Map>
+
+    <Style name="s">
+        <Rule>
+            <PointSymbolizer />
+        </Rule>
+    </Style>
+
+    <Layer minimum-scale-denominator="100" maximum-scale-denominator="200">
+        <StyleName>s</StyleName>
+        <Datasource>
+            <Parameter name="type">csv</Parameter>
+            <Parameter name="inline">
+                x,y
+                0,0
+                5,0
+            </Parameter>
+        </Datasource>
+    </Layer>
+    
+</Map>
