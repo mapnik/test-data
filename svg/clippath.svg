@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100"
+    xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny">
+
+    <clipPath>
+        <rect x="-1000" y="-1000" width="2000" height="2000"/>
+    </clipPath>
+
+    <rect fill="red" stroke="blue" stroke-width="10" x="0" y="0" width="100" height="100" />
+</svg>
