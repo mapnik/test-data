@@ -8,6 +8,8 @@ INSERT INTO test VALUES (DEFAULT, GeomFromEWKT('SRID=4326;POLYGON((0 0,4 0,4 4,0
 INSERT INTO test VALUES (DEFAULT, GeomFromEWKT('SRID=4326;MULTIPOLYGON(((1 1,3 1,3 3,1 3,1 1),(1 1,2 1,2 2,1 2,1 1)), ((-1 -1,-1 -2,-2 -2,-2 -1,-1 -1)))'), 5432, 'multi ploygon', 'X', TRUE, 999, 0, 0.0, 0.0, 'A');
 INSERT INTO test VALUES (DEFAULT, GeomFromEWKT('SRID=4326;GEOMETRYCOLLECTION(POLYGON((1 1, 2 1, 2 2, 1 2,1 1)),POINT(2 3),LINESTRING(2 3,3 4))'), 8080, 'GEOMETRYCOLLECTION', 'm', TRUE, 9999, 0, 0.0, 0.0, 'A');
 
+CREATE TABLE test_empty_table(gid serial PRIMARY KEY, geom geometry);
+
 CREATE TABLE test_invalid_id(id numeric PRIMARY KEY, geom geometry);
 INSERT INTO test_invalid_id VALUES (1.7, GeomFromEWKT('SRID=4326;POINT(0 0)'));
 
