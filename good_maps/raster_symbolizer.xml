@@ -1,4 +1,4 @@
-<Map background-color="white" srs="+init=epsg:32630" minimum-version="0.7.2">
+<Map background-color="white" srs="epsg:32630" minimum-version="0.7.2">
   <Parameters>
     <Parameter name="sizes">512,512</Parameter>
   </Parameters>
@@ -25,7 +25,7 @@
     </Rule>
   </Style>
 
-  <Layer name="dataraster" srs="+init=epsg:32630">
+  <Layer name="dataraster" srs="epsg:32630">
       <StyleName>ramped</StyleName>
       <Datasource>
           <!-- get stats on this file with gdalinfo ../raster/dataraster.tif -stats -->
