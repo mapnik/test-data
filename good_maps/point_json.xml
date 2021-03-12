@@ -1,5 +1,5 @@
 <!DOCTYPE Map>
-<Map background-color="#b5d0d0" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs" minimum-version="0.7.2">
+<Map background-color="#b5d0d0" srs="epsg:4326" minimum-version="0.7.2">
     <Style name="1">
         <Rule>
             <Filter>([x]=0)</Filter>
@@ -18,10 +18,10 @@
             <TextSymbolizer size="10" dy="t" face-name="DejaVu Sans Book" halo-radius="1">[foo]</TextSymbolizer>
             <PointSymbolizer/>
         </Rule>
-        
+
     </Style>
 
-    <Layer name="point" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Layer name="point" srs="epsg:4326">
         <StyleName>1</StyleName>
         <Datasource>
             <Parameter name="file">../json/points.geojson</Parameter>

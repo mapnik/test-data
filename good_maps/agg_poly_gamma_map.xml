@@ -1,22 +1,22 @@
-<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over" background-color="steelblue" minimum-version="0.7.2">
+<Map srs="epsg:3857" background-color="steelblue" minimum-version="0.7.2">
     <Style name="style">
-        
-        <!-- Asia - default dark color behind light polygon 
+
+        <!-- Asia - default dark color behind light polygon
         leads to "ghost lines" show-through
         -->
-        
+
         <Rule>
             <Filter>([REGION]=142)</Filter>
             <PolygonSymbolizer fill="yellow"/>
         </Rule>
 
-        <!-- Europe, using Opacity avoids "ghost lines" 
+        <!-- Europe, using Opacity avoids "ghost lines"
         -->
         <Rule>
             <Filter>([REGION]=150)</Filter>
             <PolygonSymbolizer fill="rgb(176,151,238)" fill-opacity=".3"/>
         </Rule>
-        
+
         <!-- Americas, using gamma of .65 to remove blue lines works as well..
         -->
         <Rule>
@@ -37,7 +37,7 @@
             <PolygonSymbolizer fill="rgb(212,9,14)"/>
         </Rule>
     </Style>
-    <Layer name="world" srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <Layer name="world" srs="epsg:3857">
         <StyleName>style</StyleName>
         <Datasource>
             <Parameter name="file">../shp/world_merc</Parameter>

@@ -1,4 +1,4 @@
-<Map srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"
+<Map srs="epsg:4326"
      background-color="lightsteelblue">
 
   <Style name="land">

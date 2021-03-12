@@ -1,4 +1,4 @@
-<Map srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+<Map srs="epsg:4326">
     <Style name="ellipse">
         <Rule>
             <MarkersSymbolizer
@@ -42,8 +42,8 @@
               halo-radius="2">'45˚ text'</TextSymbolizer>
         </Rule>
     </Style>
-    
-    <Layer name="ellipse" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+
+    <Layer name="ellipse" srs="epsg:4326">
         <StyleName>ellipse</StyleName>
         <Datasource>
             <Parameter name="type">csv</Parameter>
@@ -54,7 +54,7 @@ x,y
         </Datasource>
     </Layer>
 
-    <Layer name="line" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Layer name="line" srs="epsg:4326">
         <StyleName>line</StyleName>
         <Datasource>
             <Parameter name="type">csv</Parameter>
@@ -66,7 +66,7 @@ wkt
         </Datasource>
     </Layer>
 
-    <Layer name="text" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Layer name="text" srs="epsg:4326">
         <StyleName>text</StyleName>
         <Datasource>
             <Parameter name="type">csv</Parameter>
@@ -77,7 +77,7 @@ x,y
            </Parameter>
         </Datasource>
     </Layer>
-    
+
     <!-- points to frame data view -->
 
     <Style name="frame">
@@ -86,7 +86,7 @@ x,y
         </Rule>
     </Style>
 
-    <Layer name="frame" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Layer name="frame" srs="epsg:4326">
         <StyleName>frame</StyleName>
         <Datasource>
             <Parameter name="type">csv</Parameter>
@@ -99,5 +99,5 @@ x,y
             </Parameter>
         </Datasource>
     </Layer>
-    
+
 </Map>

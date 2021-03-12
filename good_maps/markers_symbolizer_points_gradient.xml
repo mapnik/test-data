@@ -1,4 +1,4 @@
-<Map srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs" background-color="white" minimum-version="0.7.2">
+<Map srs="epsg:4326" background-color="white" minimum-version="0.7.2">
 
     <Style name="1">
         <Rule>
@@ -14,8 +14,8 @@
              <MarkersSymbolizer fill="black" opacity="0.2" width="1" stroke-width="0" allow-overlap="true"/>
         </Rule>
     </Style>
-    
-    <Layer name="point" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+
+    <Layer name="point" srs="epsg:4326">
         <StyleName>1</StyleName>
         <Datasource>
             <Parameter name="type">sqlite</Parameter>

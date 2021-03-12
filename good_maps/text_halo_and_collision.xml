@@ -1,9 +1,9 @@
-<Map srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs" background-color="steelblue">
+<Map srs="epsg:4326" background-color="steelblue">
 <!-- test case for https://github.com/mapnik/mapnik/issues/1354 -->
 
     <Style name="labels">
         <Rule>
-            <TextSymbolizer 
+            <TextSymbolizer
               face-name="DejaVu Sans Book"
               size="22"
               halo-radius="10"
@@ -15,7 +15,7 @@
     </Style>
 
 
-    <Layer name="points" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Layer name="points" srs="epsg:4326">
         <StyleName>labels</StyleName>
         <Datasource>
             <Parameter name="type">csv</Parameter>
@@ -35,7 +35,7 @@ x,y
         </Rule>
     </Style>
 
-    <Layer name="frame" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+    <Layer name="frame" srs="epsg:4326">
         <StyleName>frame</StyleName>
         <Datasource>
             <Parameter name="type">csv</Parameter>
@@ -48,5 +48,5 @@ x,y
             </Parameter>
         </Datasource>
     </Layer>
-    
+
 </Map>

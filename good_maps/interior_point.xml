@@ -1,4 +1,4 @@
-<Map srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs" background-color="rgb(233,233,233)" minimum-version="0.7.2">
+<Map srs="epsg:4326" background-color="rgb(233,233,233)" minimum-version="0.7.2">
 
     <Style name="multipolygon_style">
         <Rule>
@@ -18,8 +18,8 @@
             <PointSymbolizer allow-overlap="true"/>
         </Rule>
     </Style>
-    
-    <Layer name="multipolygon" srs="+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs">
+
+    <Layer name="multipolygon" srs="epsg:4326">
         <StyleName>multipolygon_style</StyleName>
         <Datasource>
             <Parameter name="type">sqlite</Parameter>
