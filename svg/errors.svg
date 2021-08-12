@@ -1,33 +1,133 @@
-<?xml version="1.0" standalone="no"?>
-
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-
-<svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
-  <rect/>
-  <rect width="-100" height="100" />
-  <rect width="FAIL" height="100" />
-  <rect width="100" height="-100" />
-  <rect x="100" y="100" width="100" height="100" rx="1000" ry="1000"/>
-  <rect x="100" y="100" width="100" height="100" rx="-1000" ry="1000"/>
-  <rect x="100" y="100" width="100" height="100" rx="1000" ry="-1000"/>
-  <rect width="100" height="100" />
-  <rect width=" 100 " height="100invalidunit" />
-  <rect width="100px" height="100in" />
-  <rect width="100pt" height="100pc" />
-  <rect width="100mm" height="100cm" />
-  <path/>
-  <path d=""/>
-  <path d="FAIL"/>
-  <path d="FAIL" id="fail-path"/>
-  <path d="FAIL" xml:id="fail-path"/>
-  <circle cx="200" cy="0" r="-50"/>
-  <polygon/>
-  <polygon points=""/>
-  <polygon points="100 100"/>
-  <polyline/>
-  <polyline points=""/>
-  <polyline points="100 100"/>
-  <ellipse/>
-  <ellipse cx="100" cy="0" rx="-10" ry="10"/>
-  <ellipse cx="100" cy="0" rx="10" ry="-10"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="100%"
+   height="100%"
+   version="1.1"
+   id="svg605">
+  <metadata
+     id="metadata611">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs609" />
+  <rect
+     id="rect552" />
+  <rect
+     width="-100"
+     height="100"
+     id="rect554" />
+  <rect
+     width="FAIL"
+     height="100"
+     id="rect556" />
+  <rect
+     width="100"
+     height="-100"
+     id="rect558" />
+  <rect
+     x="100"
+     y="100"
+     width="100"
+     height="100"
+     rx="1000"
+     ry="1000"
+     id="rect560" />
+  <rect
+     x="100"
+     y="100"
+     width="100"
+     height="100"
+     rx="-1000"
+     ry="1000"
+     id="rect562" />
+  <rect
+     x="100"
+     y="100"
+     width="100"
+     height="100"
+     rx="1000"
+     ry="-1000"
+     id="rect564" />
+  <rect
+     width="100"
+     height="100"
+     id="rect566" />
+  <rect
+     width=" 100 "
+     height="100invalidunit"
+     id="rect568" />
+  <rect
+     width="100px"
+     height="100in"
+     id="rect570" />
+  <rect
+     width="100pt"
+     height="100pc"
+     id="rect572" />
+  <rect
+     width="100mm"
+     height="100cm"
+     id="rect574" />
+  <path
+     id="path576" />
+  <path
+     d=""
+     id="path578" />
+  <path
+     d="FAIL"
+     id="path580" />
+  <path
+     d="FAIL"
+     id="fail-path" />
+  <path
+     d="FAIL"
+     xml:id="fail-path"
+     id="path583" />
+  <circle
+     cx="200"
+     cy="0"
+     r="-50"
+     id="circle585" />
+  <polygon
+     id="polygon587" />
+  <polygon
+     points=""
+     id="polygon589" />
+  <polygon
+     points="100 100"
+     id="polygon591" />
+  <polyline
+     id="polyline593" />
+  <polyline
+     points=""
+     id="polyline595" />
+  <polyline
+     points="100 100"
+     id="polyline597" />
+  <ellipse
+     id="ellipse599" />
+  <ellipse
+     cx="100"
+     cy="0"
+     rx="-10"
+     ry="10"
+     id="ellipse601" />
+  <ellipse
+     cx="100"
+     cy="0"
+     rx="10"
+     ry="-10"
+     id="ellipse603" />
 </svg>

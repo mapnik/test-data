@@ -1,26 +1,75 @@
-<?xml version="1.0"?>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny"
-     width="8cm" height="4cm" viewBox="0 0 800 800">
-
-  <desc>Example 13_01 - fill a rectangle using a linear gradient paint server</desc>
-  <g>
-    <defs>
-      <linearGradient id="MyGradient">
-	<stop offset="0.1" stop-color="#F60" stop-opacity="0.5"/>
-	<stop offset="0.9" stop-color="#FF6"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.2"
+   width="8cm"
+   height="4cm"
+   viewBox="0 0 800 800"
+   id="svg305">
+  <metadata
+     id="metadata311">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs309" />
+  <desc
+     id="desc288">Example 13_01 - fill a rectangle using a linear gradient paint server</desc>
+  <g
+     id="g303">
+    <defs
+       id="defs295">
+      <linearGradient
+         id="MyGradient">
+        <stop
+           offset="0.1"
+           stop-color="#F60"
+           stop-opacity="0.5"
+           id="stop290" />
+        <stop
+           offset="0.9"
+           stop-color="#FF6"
+           id="stop292" />
       </linearGradient>
     </defs>
-
     <!-- Outline the drawing area in blue -->
-    <rect fill="none" stroke="blue"
-	  x="1" y="1" width="798" height="598"/>
-
+    <rect
+       fill="none"
+       stroke="blue"
+       x="1"
+       y="1"
+       width="798"
+       height="598"
+       id="rect297" />
     <!-- The rectangle is filled using a linear gradient paint server -->
-    <rect fill="url(#MyGradient)" stroke="black" stroke-width="20"
-	  x="100" y="100" width="600" height="200"/>
+    <rect
+       fill="url(#MyGradient)"
+       stroke="black"
+       stroke-width="20"
+       x="100"
+       y="100"
+       width="600"
+       height="200"
+       id="rect299" />
     <!-- The rectangle is filled using a linear gradient paint server -->
-    <rect fill="black" stroke="url( #MyGradient )" stroke-width="20"
-	  x="100" y="320" width="600" height="200"/>
-
+    <rect
+       fill="black"
+       stroke="url( #MyGradient )"
+       stroke-width="20"
+       x="100"
+       y="320"
+       width="600"
+       height="200"
+       id="rect301" />
   </g>
 </svg>

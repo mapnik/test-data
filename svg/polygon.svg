@@ -1,15 +1,50 @@
-<?xml version="1.0"?>
-<svg width="12cm" height="4cm" viewBox="0 0 1200 400"
-     xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny">
-  <desc>Example polygon01 - star and hexagon</desc>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   width="12cm"
+   height="4cm"
+   viewBox="0 0 1200 400"
+   version="1.2"
+   id="svg270">
+  <metadata
+     id="metadata276">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs274" />
+  <desc
+     id="desc262">Example polygon01 - star and hexagon</desc>
   <!-- Show outline of canvas using 'rect' element -->
-  <rect x="1" y="1" width="1198" height="398"
-	fill="none" stroke="blue" stroke-width="2" />
-  <polygon fill="red" stroke="blue" stroke-width="10"
-	    points="350,75  379,161 469,161 397,215
-		    423,301 350,250 277,301 303,215
-		    231,161 321,161" />
-  <polygon fill="lime" stroke="blue" stroke-width="10"
-	    points="850,75  958,137.5 958,262.5
-		    850,325 742,262.6 742,137.5" />
+  <rect
+     x="1"
+     y="1"
+     width="1198"
+     height="398"
+     fill="none"
+     stroke="blue"
+     stroke-width="2"
+     id="rect264" />
+  <polygon
+     fill="red"
+     stroke="blue"
+     stroke-width="10"
+     points="350,75  379,161 469,161 397,215       423,301 350,250 277,301 303,215       231,161 321,161"
+     id="polygon266" />
+  <polygon
+     fill="lime"
+     stroke="blue"
+     stroke-width="10"
+     points="850,75  958,137.5 958,262.5       850,325 742,262.6 742,137.5"
+     id="polygon268" />
 </svg>

@@ -1,15 +1,42 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    width="500"
    height="500"
-   version="1.1" >
-
-    <radialGradient id="rad" >
-       <stop style="stop-color:#000000;stop-opacity:1;" offset="0" />
-       <stop style="stop-color:#000000;stop-opacity:0;" offset="1" />
-    </radialGradient>
-
-    <circle fill="url(#rad)" cx="250" cy="250" r="250"/>
+   version="1.1"
+   id="svg698">
+  <metadata
+     id="metadata704">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs702" />
+  <radialGradient
+     id="rad">
+    <stop
+       style="stop-color:#000000;stop-opacity:1;"
+       offset="0"
+       id="stop691" />
+    <stop
+       style="stop-color:#000000;stop-opacity:0;"
+       offset="1"
+       id="stop693" />
+  </radialGradient>
+  <circle
+     fill="url(#rad)"
+     cx="250"
+     cy="250"
+     r="250"
+     id="circle696" />
 </svg>
