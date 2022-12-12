@@ -1,6 +1,7 @@
 <svg opacity="1">
   <g opacity="1">
     <attribute index="0">
+      <transform>matrix(0.188976,0,0,0.188976,75.5906,0)</transform>
       <opacity>1</opacity>
       <fill>rgb(0,0,0)</fill>
       <fill-opacity>1</fill-opacity>
@@ -9,6 +10,7 @@
       <stroke-opacity>1</stroke-opacity>
     </attribute>
     <attribute index="6">
+      <transform>matrix(0.188976,0,0,0.188976,75.5906,0)</transform>
       <gradient cx="0" cy="0" fx="0" fy="0" r="0.198438">
         <stop offset="0" color="rgb(0,0,0)"/>
         <stop offset="1" color="rgb(255,165,0)"/>
@@ -21,6 +23,7 @@
       <stroke-opacity>1</stroke-opacity>
     </attribute>
     <attribute index="12">
+      <transform>matrix(0.188976,0,0,0.188976,75.5906,0)</transform>
       <gradient cx="0" cy="0" fx="0" fy="0" r="0.198438">
         <stop offset="0" color="rgb(0,0,0)"/>
         <stop offset="1" color="rgb(255,165,0)"/>

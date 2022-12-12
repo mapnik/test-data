@@ -1,6 +1,7 @@
 <svg opacity="1">
   <g opacity="1">
     <attribute index="0">
+      <transform>matrix(1,0,0,1,0,0)</transform>
       <opacity>1</opacity>
       <fill>rgb(0,0,0)</fill>
       <fill-opacity>1</fill-opacity>
