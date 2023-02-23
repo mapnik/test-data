@@ -15,7 +15,7 @@
               width="100"
               opacity=".5"
               fill="darkorange"
-              comp-op="grain-extract"
+              comp-op="linear-dodge"
               transform="skewX(50)"
               allow-overlap="true"
             />
