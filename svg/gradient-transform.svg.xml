@@ -11,7 +11,7 @@
     </attribute>
     <attribute index="6">
       <transform>matrix(0.188976,0,0,0.188976,75.5906,0)</transform>
-      <gradient cx="0" cy="0" fx="0" fy="0" r="0.198438">
+      <gradient cx="0" cy="0" fx="0" fy="0" r="60">
         <stop offset="0" color="rgb(0,0,0)"/>
         <stop offset="1" color="rgb(255,165,0)"/>
       </gradient>
@@ -24,7 +24,7 @@
     </attribute>
     <attribute index="12">
       <transform>matrix(0.188976,0,0,0.188976,75.5906,0)</transform>
-      <gradient cx="0" cy="0" fx="0" fy="0" r="0.198438">
+      <gradient cx="0" cy="0" fx="0" fy="0" r="60">
         <stop offset="0" color="rgb(0,0,0)"/>
         <stop offset="1" color="rgb(255,165,0)"/>
       </gradient>
